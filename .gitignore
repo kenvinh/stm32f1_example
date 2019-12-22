@@ -1,0 +1,24 @@
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
+# Git
+*.gitignore
+
+# VisualStudio
+*.suo
+*.db
+
+# VisualGDB
+*.dep
+*.rsp
+*.o
+*.alldeps
+*.bin
+*.log
+
+**/CodeDB
+**/VisualGDBCache

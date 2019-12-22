@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="system_stm32f1xx.c">
+      <Filter>VisualGDB</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32F1xxxx\StartupFiles\startup_stm32f103xb.c">
+      <Filter>VisualGDB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vinh\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_gpio.c">
+      <Filter>Source\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vinh\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rcc.c">
+      <Filter>Source\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vinh\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_tim.c">
+      <Filter>Source\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vinh\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.0\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c">
+      <Filter>Source\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\main.c">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\example.c">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dev\boot.c">
+      <Filter>Source\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dev\clock.c">
+      <Filter>Source\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dev\gpio.c">
+      <Filter>Source\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dev\isr.c">
+      <Filter>Source\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dev\timer.c">
+      <Filter>Source\dev</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stm32.props">
+      <Filter>VisualGDB</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB</Filter>
+    </None>
+    <None Include="stm32f1_examples-Debug.vgdbsettings">
+      <Filter>VisualGDB</Filter>
+    </None>
+    <None Include="stm32f1_examples-Release.vgdbsettings">
+      <Filter>VisualGDB</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5ec8901e-d4ec-45c7-aa91-978be490705c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3c085b42-77a9-4d66-b4b5-8371fb602402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB">
+      <UniqueIdentifier>{65c854ec-4e74-4e02-a90a-0ed6dbe7e7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\dev">
+      <UniqueIdentifier>{b5ed6586-ef0a-45f3-8cb1-5ba02e7d152a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\dev">
+      <UniqueIdentifier>{a0684acd-459e-46a8-ae65-9de95f004591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\hal">
+      <UniqueIdentifier>{afeabc2d-245a-4456-83c9-77e351e65c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\app">
+      <UniqueIdentifier>{0e91241f-6751-414c-b2d0-66d47d18f1a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <LinkerScript Include="STM32F103C8_flash.lds">
+      <Filter>VisualGDB</Filter>
+    </LinkerScript>
+  </ItemGroup>
+</Project>
